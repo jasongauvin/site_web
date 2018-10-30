@@ -1,0 +1,87 @@
+*{
+	background-color: blue;
+}
+
+p{
+	background-color: none;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	border: 1px solid black;
+}
+
+.menu{
+	height: auto;
+	width: 100px;
+	margin: 10px;
+	background-color: yellow;
+	text-align: center;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-image: url('https://placeholdit.co//i/500x250?bg=111111');
+	height: 300px;
+	border: 1px solid black;
+}
+
+.entete{
+	padding: 10px;
+	font-size: 50px;
+}
+
+.suivant{
+	background: yellow;
+}
+
+section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: orange;
+	border: 1px solid black;
+}
+
+.imagearticle:first-child{
+	order: 0;
+	flex: 2;
+}
+
+.articles{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	flex: 1;
+}
+.article1{
+	background-color: maroon;
+	padding: 10px;
+	
+}
+
+.article2{
+	background-color: violet;
+	padding: 10px;
+}
+
+.produits{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: orange;
+	border: 1px solid black;
+}
+
+.produit {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	flex: 1;
+}
